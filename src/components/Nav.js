@@ -1,7 +1,13 @@
-export default function Nav(){
+export default function Nav() {
 
     return (
-        <nav>Isto é uma navegação</nav>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Sobre nós</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
     );
 
 }

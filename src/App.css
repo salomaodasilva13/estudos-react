@@ -1,43 +1,118 @@
 * {
 
+  font-family: Arial, sans-serif;
+  font-size: 16px;
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
 
 }
 
-body {}
+body {
+
+  background-color: #ebebec;
+
+}
 
 header {
 
-  background-color: red;
+  background-color: #3a3e41;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+
+}
+
+.header-left {
+
+  width: 100px;
+  float: left;
+  text-align: center;
+
+}
+
+.header-right {
+
+  margin-left: 25px;
+  padding-top: 14px;
+  float: left;
 
 }
 
 nav {
 
-  background-color: blue;
+  padding: 10px 20px;
+  width: 100%;
+
+}
+
+ul {
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+
+}
+
+li {
+
+  margin: 0 15px;
+  color: #fff;
+  transition: color 0.3s ease;
+
+}
+
+li:hover {
+
+  color: #f39c12;
+  cursor: pointer;
+
+}
+
+li:first-child {
+
+  font-weight: bold;
 
 }
 
 main {
 
-  background-color: blueviolet;
-  min-height: 100vh;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 4fr;
+  height: 100vh;
+
+}
+
+.menu-lateral {
+
+  background-color: #c3c5c6;
+  padding: 20px;
+
+}
+
+.conteudo-centro {
+
+  padding: 20px;
 
 }
 
 footer {
 
-  background-color: black;
+  background-color: #3a3e41;
+  padding: 15px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   margin-top: auto;
+  color: #fff;
 
 }
 
-section {
+.logoTopo {
 
-  background-color: darkmagenta;
+  width: 64px;
 
 }
