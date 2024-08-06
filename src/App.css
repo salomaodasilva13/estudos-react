@@ -116,3 +116,42 @@ footer {
   width: 64px;
 
 }
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #007bff;
+}
+
+nav li {
+  display: inline-block;
+  position: relative;
+}
+
+nav a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a:hover {
+  background-color: #0056b2;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: #007bff;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.submenu li {
+  width: 100%;
+}
+
+nav li:hover .submenu {
+  display: block;
+}
