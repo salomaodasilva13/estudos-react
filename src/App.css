@@ -155,3 +155,28 @@ nav a:hover {
 nav li:hover .submenu {
   display: block;
 }
+
+.logado,
+.deslogado {
+
+  width: 75px;
+  height: 75px;
+  border-radius: 50px;
+  text-align: center;
+  padding-top: 30px;
+  position: absolute;
+  right: 20px;
+
+}
+
+.logado {
+
+  background-color: chartreuse;
+
+}
+
+.deslogado {
+
+  background-color: crimson;
+
+}

@@ -8,8 +8,26 @@ const logoTopo = {
 
 }
 
+function Logado() {
+
+    return (
+        <div className='logado'>Logado</div>
+    )
+
+}
+
+function Deslogado() {
+
+    return (
+        <div className='deslogado'>Deslogado</div>
+    )
+
+}
+
 export default function Header() {
 
+    let isLogado = true;
+   
     return (
         <>
             <header>
@@ -21,6 +39,12 @@ export default function Header() {
                 <div className={"header-right"}>
                     <Nav />
                 </div>
+
+                {
+
+                    isLogado ? Logado() : Deslogado()
+
+                }
 
             </header>
         </>
