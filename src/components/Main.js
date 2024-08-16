@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Circulo from './Circulo';
 
 export default function Main() {
 
@@ -50,7 +51,8 @@ export default function Main() {
                 <br />
                 <br />
                 <button onClick={() => atualizar(-5)}>Decrementar</button>
-
+                <br />
+                <Circulo />
             </section>
         </main>
     );
